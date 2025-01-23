@@ -1,10 +1,9 @@
-// import React from 'react'
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg py-3 px-5 fixed-top">
+      <nav className="navbar navbar-expand-lg py-3 px-md-4 fixed-top">
         <div className="container">
           <Link
             className="navbar-brand text-white fs-2 fw-bold text-uppercase"
@@ -24,10 +23,10 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0 px-3">
               <li className="nav-item">
                 <NavLink
-                  className="nav-link text-white text-uppercase fw-bold mx-2"
+                  className="nav-link text-white text-uppercase fw-bold my-2 p-2"
                   aria-current="page"
                   to="/About"
                 >
@@ -36,7 +35,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  className="nav-link text-white text-uppercase fw-bold mx-2"
+                  className="nav-link text-white text-uppercase fw-bold my-2 p-2"
                   to="/Portfolio"
                 >
                   Portfolio
@@ -44,7 +43,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  className="nav-link text-white text-uppercase fw-bold mx-2"
+                  className="nav-link text-white text-uppercase fw-bold my-2 p-2"
                   to="/Contact"
                 >
                   Contact

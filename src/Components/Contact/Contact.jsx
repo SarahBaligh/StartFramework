@@ -1,21 +1,15 @@
-// import React from "react";
+import StarLine from "../StarLine/StarLine";
 
 function Contact() {
   return (
     <>
-      <section className="contact pt-4 pb-5">
+      <section className="contact py-5 ">
         <div className="container">
           <div>
             <h1 className="text-center fw-bold text-uppercase fs-1 text-color">
               Contact Section
             </h1>
-            <div className="d-flex justify-content-center align-items-center gap-3 my-3">
-              <div className="dark-line"></div>
-              <div>
-                <i className="fa-solid fa-star text-color"></i>
-              </div>
-              <div className="dark-line"></div>
-            </div>
+            <StarLine />
           </div>
 
           <div>

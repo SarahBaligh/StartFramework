@@ -1,9 +1,7 @@
-// import React from "react";
-
 function About() {
   return (
     <>
-      <section className="bg-color text-white py-5 " >
+      <section className="bg-color text-white py-5 ">
         <div className="container py-5">
           <h1 className="text-center fw-bold text-uppercase fs-1">
             About Component

@@ -1,90 +1,95 @@
 :root {
-    --main-color: #1abc9c;
-    --second-color: #2c3e50;
-  }
-  
-  html {
-    scroll-padding: 3rem;
-  }
-  
-  .bg-color {
-    background-color: var(--main-color) !important ;
-  }
-  
-  .text-color {
-    color: var(--second-color) !important ;
-  }
-  
-  nav {
-    background-color: var(--second-color);
-  }
-  
-  footer {
-    background-color: var(--second-color);
-    color: #fff;
-  }
-  
-  .footer-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .copyright {
-    background-color: #1a252f;
-  }
-  
-  .line {
-    border: 3px solid #fff;
-    width: 80px;
-  }
-  
-  .dark-line {
-    border: 3px solid var(--second-color);
-    width: 80px;
-  }
-  
-  figure {
-    position: relative;
-  }
-  
-  figcaption {
-    background-color: var(--main-color);
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transition: all 0.5s;
-    cursor: pointer;
-  }
-  
-  figure:hover figcaption {
-    opacity: 0.9;
-  }
-  
-  .form-control {
-    border-top: none !important;
-    border-right: none !important;
-    border-left: none !important;
-  }
-  
-  .form-control:focus {
-    box-shadow: 0 0 0 0 transparent !important;
-    border-color: #dee2e6;
-  }
-  
-  .active {
-    background-color: var(--main-color);
-    border-radius: 7px;
-  }
-  
-  section {
-    margin-top: 5rem;
-  }
-  
+  --main-color: #1abc9c;
+  --second-color: #2c3e50;
+}
+
+html {
+  scroll-padding: 3rem;
+}
+
+.bg-color {
+  background-color: var(--main-color) !important ;
+}
+
+.text-color {
+  color: var(--second-color) !important ;
+}
+
+nav {
+  background-color: var(--second-color);
+}
+
+footer {
+  background-color: var(--second-color);
+  color: #fff;
+}
+
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  background-color: #1a252f;
+}
+
+.line {
+  border: 3px solid #fff;
+  width: 80px;
+}
+
+.dark-line {
+  border: 3px solid var(--second-color);
+  width: 80px;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  background-color: var(--main-color);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+figure:hover figcaption {
+  opacity: 0.9;
+}
+
+.form-control {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+  border-color: #dee2e6;
+}
+
+.active {
+  background-color: var(--main-color);
+  border-radius: 7px;
+}
+
+section {
+  margin-top: 5rem;
+}
+
+#houseImg,
+#msrhImg,
+#cakeImg {
+  background-color: rgba(13, 109, 253, 0.11);
+}
